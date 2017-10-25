@@ -33,7 +33,7 @@ Sets the Content of the WebServiceRequest.
 
 ```csharp
 public static TWebServiceRequest WithJsonContent<TWebServiceRequest, TContentValue>(this TWebServiceRequest request, 
-    TContentValue contentValue, JsonOutputSettings settings)
+    TContentValue contentValue, JsonSettings settings)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

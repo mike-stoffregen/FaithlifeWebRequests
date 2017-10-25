@@ -10,8 +10,8 @@ public static class JsonWebServiceRequestUtility
 
 | name | description |
 | --- | --- |
-| static [WithInputSettings&lt;TResponseContent&gt;](JsonWebServiceRequestUtility/WithInputSettings.md)(…) | Sets the InputSettings of the WebServiceRequest. |
 | static [WithJsonContent&lt;TWebServiceRequest,TContentValue&gt;](JsonWebServiceRequestUtility/WithJsonContent.md)(…) | Sets the Content of the WebServiceRequest. (2 methods) |
+| static [WithJsonSettings&lt;TResponseContent&gt;](JsonWebServiceRequestUtility/WithJsonSettings.md)(…) | Sets the InputSettings of the WebServiceRequest. |
 
 ## See Also
 

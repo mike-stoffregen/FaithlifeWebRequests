@@ -45,7 +45,7 @@ The web request URI.
 Creates a web request URI using the specified relative URI pattern and parameters.
 
 ```csharp
-protected Uri GetRequestUri(string relativeUriPattern, object uriParameters)
+protected Uri GetRequestUri(string relativeUriPattern, IEnumerable<KeyValuePair<string, object>> uriParameters)
 ```
 
 | parameter | description |

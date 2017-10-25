@@ -37,14 +37,14 @@ Use JToken as the type to parse arbitrary JSON.
 Parses the JSON into an object of the specified type.
 
 ```csharp
-public static Task<object> GetJsonAsAsync(this HttpResponseMessage response, Type type, JsonInputSettings inputSettings)
+public static Task<object> GetJsonAsAsync(this HttpResponseMessage response, Type type, JsonSettings jsonSettings)
 ```
 
 | parameter | description |
 | --- | --- |
 | response | The response. |
 | type | The type. |
-| inputSettings | The input settings. |
+| jsonSettings | The JSON settings. |
 
 ## Return Value
 
@@ -106,14 +106,14 @@ Use JToken as the type to parse arbitrary JSON.
 Parses the JSON into an object of the specified type.
 
 ```csharp
-public static Task<T> GetJsonAsAsync<T>(this HttpResponseMessage response, JsonInputSettings inputSettings)
+public static Task<T> GetJsonAsAsync<T>(this HttpResponseMessage response, JsonSettings jsonSettings)
 ```
 
 | parameter | description |
 | --- | --- |
 | T | The specified type. |
 | response | The response. |
-| inputSettings | The input settings. |
+| jsonSettings | The JSON settings. |
 
 ## Return Value
 

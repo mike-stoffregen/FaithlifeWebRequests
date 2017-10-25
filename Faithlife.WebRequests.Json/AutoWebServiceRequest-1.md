@@ -15,7 +15,7 @@ public class AutoWebServiceRequest<TResponse> : WebServiceRequestBase<TResponse>
 | name | description |
 | --- | --- |
 | [AutoWebServiceRequest](AutoWebServiceRequest-1/AutoWebServiceRequest.md)(…) | Initializes a new instance of the [`AutoWebServiceRequest`](AutoWebServiceRequest-1.md) class. |
-| [JsonInputSettings](AutoWebServiceRequest-1/JsonInputSettings.md) { get; set; } | Gets or sets the JSON input settings. |
+| [JsonSettings](AutoWebServiceRequest-1/JsonSettings.md) { get; set; } | Gets or sets the JSON settings. |
 
 ## Protected Members
 

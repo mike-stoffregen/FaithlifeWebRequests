@@ -11,7 +11,7 @@ public class JsonWebServiceClientSettings
 | name | description |
 | --- | --- |
 | [JsonWebServiceClientSettings](JsonWebServiceClientSettings/JsonWebServiceClientSettings.md)() | The default constructor. |
-| [JsonInputSettings](JsonWebServiceClientSettings/JsonInputSettings.md) { get; set; } | Gets or sets the json input settings. |
+| [JsonSettings](JsonWebServiceClientSettings/JsonSettings.md) { get; set; } | Gets or sets the JSON settings. |
 | [RequestSettings](JsonWebServiceClientSettings/RequestSettings.md) { get; set; } | Gets or sets the request settings. |
 | [RequestSettingsCreator](JsonWebServiceClientSettings/RequestSettingsCreator.md) { get; set; } | Gets or sets the request settings creator. |
 

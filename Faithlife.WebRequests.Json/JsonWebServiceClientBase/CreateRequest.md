@@ -52,7 +52,7 @@ The new AutoWebServiceRequest.
 Creates a new AutoWebServiceRequest using the specified relative URI pattern and parameters.
 
 ```csharp
-protected AutoWebServiceRequest<TResponse> CreateRequest<TResponse>(string relativeUriPattern, object uriParameters)
+protected AutoWebServiceRequest<TResponse> CreateRequest<TResponse>(string relativeUriPattern, IEnumerable<KeyValuePair<string, object>> uriParameters)
 ```
 
 | parameter | description |

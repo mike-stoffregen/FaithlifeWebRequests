@@ -15,7 +15,7 @@ public class JsonWebServiceRequest<TResponseValue> : JsonWebServiceRequest
 | name | description |
 | --- | --- |
 | [JsonWebServiceRequest](JsonWebServiceRequest-1/JsonWebServiceRequest.md)(…) | Initializes a new instance of the [`JsonWebServiceRequest`](JsonWebServiceRequest-1.md) class. |
-| [InputSettings](JsonWebServiceRequest-1/InputSettings.md) { get; set; } | Gets or sets the input settings. |
+| [JsonSettings](JsonWebServiceRequest-1/JsonSettings.md) { get; set; } | Gets or sets the JSON settings. |
 | [GetResponseAsync](JsonWebServiceRequest-1/GetResponseAsync.md)(…) | Gets the response asynchronously. |
 
 ## Protected Members
