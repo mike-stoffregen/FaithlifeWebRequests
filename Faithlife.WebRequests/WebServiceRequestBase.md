@@ -15,6 +15,7 @@ public abstract class WebServiceRequestBase
 | [AllowsRequestContentCompression](WebServiceRequestBase/AllowsRequestContentCompression.md) { get; set; } | True if the request content compression is allowed. |
 | [Content](WebServiceRequestBase/Content.md) { get; set; } | Gets or sets the content. |
 | [DisableAutoRedirect](WebServiceRequestBase/DisableAutoRedirect.md) { get; set; } | True if HTTP redirects should not be followed automatically. |
+| [IfMatch](WebServiceRequestBase/IfMatch.md) { get; set; } | Gets or sets the If-Match header. |
 | [IfModifiedSince](WebServiceRequestBase/IfModifiedSince.md) { get; set; } | Gets or sets if modified since. |
 | [IfNoneMatch](WebServiceRequestBase/IfNoneMatch.md) { get; set; } | Gets or sets the If-None-Match header. |
 | [Method](WebServiceRequestBase/Method.md) { get; set; } | Gets or sets the method. |

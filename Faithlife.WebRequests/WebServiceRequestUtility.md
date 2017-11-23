@@ -19,6 +19,7 @@ public static class WebServiceRequestUtility
 | static [WithDeleteMethod&lt;TWebServiceRequest&gt;](WebServiceRequestUtility/WithDeleteMethod.md)(…) | Sets the Method of the WebServiceRequest to "DELETE". |
 | static [WithHandler&lt;TWebServiceResponse&gt;](WebServiceRequestUtility/WithHandler.md)(…) | Adds to the Handlers of the WebServiceRequest. |
 | static [WithHeadMethod&lt;TWebServiceRequest&gt;](WebServiceRequestUtility/WithHeadMethod.md)(…) | Sets the Method of the WebServiceRequest to "HEAD". |
+| static [WithIfMatch&lt;TWebServiceRequest&gt;](WebServiceRequestUtility/WithIfMatch.md)(…) | Sets the IfMatch of the WebServiceRequest. |
 | static [WithIfModifiedSince&lt;TWebServiceRequest&gt;](WebServiceRequestUtility/WithIfModifiedSince.md)(…) | Sets the IfModifiedSince of the WebServiceRequest. |
 | static [WithIfNoneMatch&lt;TWebServiceRequest&gt;](WebServiceRequestUtility/WithIfNoneMatch.md)(…) | Sets the IfNoneMatch of the WebServiceRequest. |
 | static [WithMethod&lt;TWebServiceRequest&gt;](WebServiceRequestUtility/WithMethod.md)(…) | Sets the Method of the WebServiceRequest. |
