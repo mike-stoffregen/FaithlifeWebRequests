@@ -1,4 +1,4 @@
-# JsonWebServiceClientBase.GetRequestUri method (1 of 3)
+# JsonWebServiceClientBase.GetRequestUri method (1 of 4)
 
 Creates a web request URI.
 
@@ -17,7 +17,7 @@ The web request URI.
 
 ---
 
-# JsonWebServiceClientBase.GetRequestUri method (2 of 3)
+# JsonWebServiceClientBase.GetRequestUri method (2 of 4)
 
 Creates a web request URI using the specified relative URI.
 
@@ -40,7 +40,7 @@ The web request URI.
 
 ---
 
-# JsonWebServiceClientBase.GetRequestUri method (3 of 3)
+# JsonWebServiceClientBase.GetRequestUri method (3 of 4)
 
 Creates a web request URI using the specified relative URI pattern and parameters.
 
@@ -60,6 +60,34 @@ The web request URI.
 ## Remarks
 
 See UriUtility.FromPattern for acceptable parameter values.
+
+## See Also
+
+* class [JsonWebServiceClientBase](../JsonWebServiceClientBase.md)
+* namespace [Faithlife.WebRequests.Json](../../Faithlife.WebRequests.md)
+
+---
+
+# JsonWebServiceClientBase.GetRequestUri method (4 of 4)
+
+Creates a web request URI using the specified relative URI pattern and parameters.
+
+```csharp
+protected Uri GetRequestUri(string relativeUriPattern, string[] parameters)
+```
+
+| parameter | description |
+| --- | --- |
+| relativeUriPattern | The relative URI pattern. |
+| parameters | The URI parameters. |
+
+## Return Value
+
+The web request URI.
+
+## Remarks
+
+Each pair of parameters represents a key and a value. See UriUtility.FromPattern for acceptable parameter values.
 
 ## See Also
 

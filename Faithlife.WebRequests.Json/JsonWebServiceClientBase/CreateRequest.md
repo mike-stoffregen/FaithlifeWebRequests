@@ -1,4 +1,4 @@
-# JsonWebServiceClientBase.CreateRequest&lt;TResponse&gt; method (1 of 3)
+# JsonWebServiceClientBase.CreateRequest&lt;TResponse&gt; method (1 of 4)
 
 Creates a new AutoWebServiceRequest.
 
@@ -22,7 +22,7 @@ The new AutoWebServiceRequest.
 
 ---
 
-# JsonWebServiceClientBase.CreateRequest&lt;TResponse&gt; method (2 of 3)
+# JsonWebServiceClientBase.CreateRequest&lt;TResponse&gt; method (2 of 4)
 
 Creates a new AutoWebServiceRequest using the specified relative URI.
 
@@ -47,7 +47,7 @@ The new AutoWebServiceRequest.
 
 ---
 
-# JsonWebServiceClientBase.CreateRequest&lt;TResponse&gt; method (3 of 3)
+# JsonWebServiceClientBase.CreateRequest&lt;TResponse&gt; method (3 of 4)
 
 Creates a new AutoWebServiceRequest using the specified relative URI pattern and parameters.
 
@@ -68,6 +68,36 @@ The new AutoWebServiceRequest.
 ## Remarks
 
 See UriUtility.FromPattern for acceptable parameter values.
+
+## See Also
+
+* class [AutoWebServiceRequest&lt;TResponse&gt;](../AutoWebServiceRequest-1.md)
+* class [JsonWebServiceClientBase](../JsonWebServiceClientBase.md)
+* namespace [Faithlife.WebRequests.Json](../../Faithlife.WebRequests.md)
+
+---
+
+# JsonWebServiceClientBase.CreateRequest&lt;TResponse&gt; method (4 of 4)
+
+Creates a new AutoWebServiceRequest using the specified relative URI pattern and parameters.
+
+```csharp
+protected AutoWebServiceRequest<TResponse> CreateRequest<TResponse>(string relativeUriPattern, string[] parameters)
+```
+
+| parameter | description |
+| --- | --- |
+| TResponse | The type of the response. |
+| relativeUriPattern | The relative URI pattern. |
+| parameters | The URI parameters. |
+
+## Return Value
+
+The new AutoWebServiceRequest.
+
+## Remarks
+
+Each pair of parameters represents a key and a value. See UriUtility.FromPattern for acceptable parameter values.
 
 ## See Also
 
