@@ -287,11 +287,11 @@ namespace Faithlife.WebRequests
 			finally
 			{
 				// dispose HttpResponseMessage unless detached
-				if (info.WebResponse != null)
+				if (info.WebResponse != null && info.IsContentRead)
 					((IDisposable) info.DetachWebResponse()).Dispose();
 			}
 
-			// return result
+			// return result -- and leak some memory...
 			return info.Response;
 		}
 
